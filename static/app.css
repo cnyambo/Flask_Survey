@@ -7,6 +7,7 @@ div {
     background-color: #f2f2f2;
     padding: 20px;
     width: 50%;
+    text-align: center;
   }
 
 div button {
@@ -22,4 +23,17 @@ div button {
 
 div button:hover {
     background-color: #45a049;
+}  
+
+h1, h3{
+    text-align: center;
+}
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+ol{
+    text-align: justify;
+    
 }  
