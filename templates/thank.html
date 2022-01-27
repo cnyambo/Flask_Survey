@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}
+    Thank you Page
+{% endblock %}
+{% block content%}
+<h3>Thank You</h3>
+<div>
+    <p>These are your answers :</p>
+    
+    <ol>
+        {% for val in resp %}
+            <li>{{val}}</li>
+        {% endfor%}
+    </ol>
+</div>
+{% endblock %}
